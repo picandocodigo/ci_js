@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0.2em;
+    color: #355ea0;
+}
+
+a{text-decoration: none}
+
+.wrapper{
+    background: #add0a8;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#avatar{
+    float: left;
+    width: 25%;
+    background: #fff;
+    height: 34%;
+    border-radius: 20px;
+}
+
+.validation{
+    height: 35%;
+    float: left;
+    width: 75%;
+}
+
+h1{
+    margin: 0;
+    padding-left: 10%;
+    background: #67ba9e;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    border-bottom: solid 0.2em #355ea0;
+}
+
+h2{
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info{
+    background: #d1ddc9;
+}
+
+label{
+    font-size: 2em;
+}
+
+.flag{
+    background: #fff;
+    border-top: solid 0.6em #00f;
+    border-bottom: solid 0.6em #f00;
+    font-size: 0.5em;p
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+input{
+    border: 0;
+    font-size: 2em;
+    background: #c3ebbd;
+}
+
+#ci{
+    width: 7em;
+}
+
+#validation{
+    width: 1em;
+}
+
+.meta{
+    clear: both;
+    background: #c5edbf;
+    padding: 1em;
+    margin: 1em;
+}
