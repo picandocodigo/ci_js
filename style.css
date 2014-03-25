@@ -16,10 +16,11 @@ a{text-decoration: none}
 
 #avatar{
     float: left;
-    width: 25%;
-    background: #fff;
+    margin-left: 0.2em;
+    width: 24%;
+    background: #eee;
     height: 34%;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .validation{
