@@ -18,3 +18,5 @@ random_ci();          // => 35330781 - Obtiene un número de cédula válido al 
 ```
 
 Aplicación de ejemplo: https://picandocodigo.github.io/ci_js
+
+Plugin para jQuery: https://github.com/picandocodigo/ci.jquery
