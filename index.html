@@ -1,80 +1,85 @@
 <html>
   <head>
     <title>Validaci&oacute;n C&eacute;dula de Identidad
-    Uruguaya</title>
+      Uruguaya</title>
     <link rel="stylesheet" href="style.css" type="text/css"
-    media="screen" />
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Republica Oriental del Uruguay</h1>
-      </header>
-      <div id="avatar"> </div>
-      <div class="validation">
-        <h2>Direcci&oacute;n Nacional de Identificaci&oacute;n
-          Civil</h2>
-        <h3>C&eacute;dula de Identidad</h3>
-        <div class="info">
-          <label for="ci">N&#176;</label>
-          <input id="ci" type="text" placeholder="0.000.000"/>
-          <input id="validation" type="text" placeholder="0"/>
+      media="screen" />
+    <body>
+      <div class="wrapper">
+        <header>
+          <h1>Republica Oriental del Uruguay</h1>
+        </header>
+        <div id="avatar"> </div>
+        <div class="validation">
+          <div class="row">
+            <img src="/escudo-uruguay.png" id="escudo">
+            <h2>Direcci&oacute;n Nacional de Identificaci&oacute;n
+              Civil</h2>
+          </div>
+          <h3>C&eacute;dula de Identidad</h3>
+          <div class="info">
+            <label for="ci">N&#176;</label>
+            <input id="ci" type="text" placeholder="0.000.000"/>
+            <input id="validation" type="text" placeholder="0"/>
+          </div>
+          <div class="flag">Libertad o Muerte</div>
         </div>
-        <div class="flag">Libertad o Muerte</div>
+        <div class="meta">
+          <div class="info">
+            <strong>Validar c&eacute;dula:</strong>
+            <input id="val_ci" type="text" placeholder="0.000.000-0"/>
+          </div>
+          <div class="info">
+            <strong>N&uacute;mero de c&eacute;dula al azar:</strong>
+            <input id="ran_ci" type="text" placeholder="0.000.000-0"/>
+            <button id="random">Nuevo</button>
+          </div>
+          <div class="recursos">
+            <h3>Recursos para desarrolladores</h3>
+            <ul>
+              <li>
+                <strong>Ruby</strong>
+                - <a href="https://github.com/picandocodigo/ci_uy"
+                    title="ci_uy">ci_uy</a>: Gema en Ruby para validar C.I.s.
+              </li>
+              <li>
+                <strong>Python</strong>
+                - <a href="https://github.com/francocorreasosa/ci_py"
+                    title="ci_uy">ci_py</a>: M&oacute;dulo Python para validar C.I.s.
+              </li>
+              <li>
+                <strong>JavaScript</strong>
+                - <a href="https://github.com/picandocodigo/ci_js"
+                    title="ci_js">ci_js</a>: C&oacute;digo JavaScript para validar
+                C.I.s.
+              </li>
+              <li>
+                <strong>jQuery</strong>
+                - <a href="https://github.com/picandocodigo/ci.jquery"
+                    title="Plugin jQuery para validar c&eacute;dulas">ci</a> -
+                Plugin para validar c&eacute;dulas en jQuery.
+              </li>
+              <li>
+                <strong>Node</strong>
+                - <a href="https://github.com/francocorreasosa/ci_node" title="Versi&oacute;n para Node">ci_node</a> - port en Node, instalable con NPM.
+              </li>
+              <li>
+                <strong>PHP</strong>
+                - <a href="https://github.com/leeway-academy/ci_php" title="Versi&oacute;n para PHP">ci_php</a> - port en PHP, instalable via composer.
+              </li>
+            </ul>
+            <p>Recursos C&eacute;dula de Identidad:</p>
+            <ul>
+              <li><a href="https://tramites.gub.uy/ampliados?id=607"
+                    title="Renovaci&oacute;n de la C.I.">Renovaci&oacute;n de la
+                C&eacute;dula de Identidad</a></li>
+              <li><a href="http://www.uruguay.gub.uy/dnic/"
+                    title="DNIC">Direcci&oacute;n Nacional de Identificaci&oacute;n Civil</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="meta">
-        <strong>Validar c&eacute;dula:</strong>
-        <p>
-          <input id="val_ci" type="text" placeholder="0.000.000-0"/>
-        </p>
-        <strong>N&uacute;mero de c&eacute;dula al azar:</strong>
-        <p>
-          <input id="ran_ci" type="text" placeholder="0.000.000-0"/>
-          <button id="random">Nuevo</button>
-        </p>
-        <h3>Recursos para desarrolladores</h3>
-        <ul>
-          <li>
-            <strong>Ruby</strong>
-            - <a href="https://github.com/picandocodigo/ci_uy"
-            title="ci_uy">ci_uy</a>: Gema en Ruby para validar C.I.s.
-          </li>
-          <li>
-            <strong>Python</strong>
-            - <a href="https://github.com/francocorreasosa/ci_py"
-            title="ci_uy">ci_py</a>: M&oacute;dulo Python para validar C.I.s.
-          </li>
-          <li>
-            <strong>JavaScript</strong>
-            - <a href="https://github.com/picandocodigo/ci_js"
-            title="ci_js">ci_js</a>: C&oacute;digo JavaScript para validar
-            C.I.s.
-          </li>
-          <li>
-            <strong>jQuery</strong>
-            - <a href="https://github.com/picandocodigo/ci.jquery"
-            title="Plugin jQuery para validar c&eacute;dulas">ci</a> -
-            Plugin para validar c&eacute;dulas en jQuery.
-          </li>
-          <li>
-            <strong>Node</strong>
-            - <a href="https://github.com/francocorreasosa/ci_node" title="Versi&oacute;n para Node">ci_node</a> - port en Node, instalable con NPM.
-          </li>
-          <li>
-            <strong>PHP</strong>
-            - <a href="https://github.com/leeway-academy/ci_php" title="Versi&oacute;n para PHP">ci_php</a> - port en PHP, instalable via composer.
-          </li>
-        </ul>
-        <p>Recursos C&eacute;dula de Identidad:</p>
-        <ul>
-          <li><a href="https://tramites.gub.uy/ampliados?id=607"
-          title="Renovaci&oacute;n de la C.I.">Renovaci&oacute;n de la
-          C&eacute;dula de Identidad</a></li>
-          <li><a href="http://www.uruguay.gub.uy/dnic/"
-          title="DNIC">Direcci&oacute;n Nacional de Identificaci&oacute;n Civil</a></li>
-        </ul>
-      </div>
-    </div>
-    <script type="text/javascript" src="ci.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-  </body>
+      <script type="text/javascript" src="ci.js"></script>
+      <script type="text/javascript" src="app.js"></script>
+    </body>
 </html>

@@ -2,13 +2,14 @@ body{
     margin: 0;
     padding: 0.2em;
     color: #355ea0;
+    font-family: 'Arial';
 }
 
 a{text-decoration: none}
 
 .wrapper{
     background: #add0a8;
-    width: 60%;
+    width: 1024px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -28,27 +29,37 @@ a{text-decoration: none}
     width: 75%;
 }
 
+header{
+  text-align: center;
+}
+
 h1{
     margin: 0;
-    padding-left: 10%;
     background: #67ba9e;
     color: #fff;
     font-size: 1.2em;
     font-weight: normal;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
     border-bottom: solid 0.2em #355ea0;
+    word-spacing: 6em;
 }
 
 h2{
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
+}
+
+h1, h2{
+  font-family: 'Arial Narrow';
 }
 
 .info{
-    background: #d1ddc9;
+  background: #d1ddc9;
+  border-top: solid 1px #355ea0;
+  padding: 0 1em;
 }
 
 label{
@@ -68,7 +79,7 @@ label{
 input{
     border: 0;
     font-size: 2em;
-    background: #c3ebbd;
+    background: #eee;
 }
 
 #ci{
@@ -82,6 +93,19 @@ input{
 .meta{
     clear: both;
     background: #c5edbf;
-    padding: 1em;
-    margin: 1em;
+}
+
+.row{
+  display: block;
+  width: 70%;
+  text-align: center;
+}
+
+#escudo{
+  position:relative;
+  top: -25px;
+}
+
+.recursos{
+  padding: 1em;
 }
