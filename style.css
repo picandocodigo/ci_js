@@ -17,9 +17,11 @@ a{text-decoration: none}
 #avatar{
     float: left;
     margin-left: 0.2em;
+    margin-top: 0.2em;
     width: 24%;
-    background: #eee;
     height: 34%;
+    min-height: 273px;
+    background: #eee;
     border-radius: 15px;
 }
 
@@ -43,6 +45,7 @@ h1{
     letter-spacing: 0.1em;
     border-bottom: solid 0.2em #355ea0;
     word-spacing: 6em;
+    font-weight: bold;
 }
 
 h2{
