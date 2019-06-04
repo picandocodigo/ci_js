@@ -109,6 +109,14 @@ input{
   top: -25px;
 }
 
+li {
+  margin: 1em;
+}
+
 .recursos{
+  padding: 1em;
+}
+
+footer{
   padding: 1em;
 }

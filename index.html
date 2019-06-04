@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Validaci&oacute;n C&eacute;dula de Identidad Uruguaya</title>
+    <meta charset='UTF-8'>
+    <title>Validación Cédula de Identidad Uruguaya</title>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
   <body>
@@ -15,23 +16,24 @@
       <div class="validation">
         <div class="row">
           <img src="/escudo-uruguay.png" id="escudo">
-          <h2>Direcci&oacute;n Nacional de Identificaci&oacute;n Civil</h2>
+          <h2>Dirección Nacional de Identificación Civil</h2>
         </div>
-        <h3>C&eacute;dula de Identidad</h3>
+        <h3>Cédula de Identidad</h3>
         <div class="info">
           <label for="ci">N&#176;</label>
           <input id="ci" type="text" placeholder="0.000.000"/>
           <input id="validation" type="text" placeholder="0"/>
+          Campo para comprobar el dígito verificador
         </div>
         <div class="flag">Libertad o Muerte</div>
       </div>
       <div class="meta">
         <div class="info">
-          <strong>Validar c&eacute;dula:</strong>
+          <strong>Validar cédula:</strong>
           <input id="val_ci" type="text" placeholder="0.000.000-0"/>
         </div>
         <div class="info">
-          <strong>N&uacute;mero de c&eacute;dula al azar:</strong>
+          <strong>Número de cédula al azar:</strong>
           <input id="ran_ci" type="text" placeholder="0.000.000-0"/>
           <button id="random">Nuevo</button>
         </div>
@@ -46,19 +48,19 @@
             <li>
               <strong>Python</strong>
               - <a href="https://github.com/francocorreasosa/ci_py"
-                  title="ci_uy">ci_py</a>: M&oacute;dulo Python para validar C.I.s.
+                  title="ci_uy">ci_py</a>: Módulo Python para validar C.I.s.
             </li>
             <li>
               <strong>JavaScript</strong>
               - <a href="https://github.com/picandocodigo/ci_js"
-                  title="ci_js">ci_js</a>: C&oacute;digo JavaScript para validar
+                  title="ci_js">ci_js</a>: Código JavaScript para validar
               C.I.s.
             </li>
             <li>
               <strong>jQuery</strong>
               - <a href="https://github.com/picandocodigo/ci.jquery"
                   title="Plugin jQuery para validar c&eacute;dulas">ci</a> -
-              Plugin para validar c&eacute;dulas en jQuery.
+              Plugin para validar cédulas en jQuery.
             </li>
             <li>
               <strong>Node</strong>
@@ -71,14 +73,23 @@
           </ul>
           <p>Recursos C&eacute;dula de Identidad:</p>
           <ul>
-            <li><a href="https://tramites.gub.uy/ampliados?id=607"
-                  title="Renovaci&oacute;n de la C.I.">Renovaci&oacute;n de la
-              C&eacute;dula de Identidad</a></li>
-            <li><a href="http://www.uruguay.gub.uy/dnic/"
-                  title="DNIC">Direcci&oacute;n Nacional de Identificaci&oacute;n Civil</a></li>
+            <li>
+              <a href="https://tramites.gub.uy/ampliados?id=607" title="Renovaci&oacute;n de la C.I.">
+                Renovación de la Cédula de Identidad
+              </a>
+            </li>
+            <li>
+              <a href="http://www.uruguay.gub.uy/dnic/" title="DNIC">
+                Direcciónn Nacional de Identificación Civil
+              </a>
+            </li>
           </ul>
         </div>
       </div>
+      <footer>
+        Programado por <a href="https://fernandobriano.com/es" title="Fernando Briano">Fernando Briano</a>. Proyecto software libre:
+        <a href="https://github.com/picandocodigo/ci_js" title="Código fuente en GitHub">código fuente en GitHub</a>.
+      </footer>
     </div>
     <script type="text/javascript" src="ci.js"></script>
     <script type="text/javascript" src="app.js"></script>
