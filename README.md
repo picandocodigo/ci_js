@@ -27,3 +27,5 @@ https://picandocodigo.github.io/ci_js
   * Plugin para jQuery: https://github.com/picandocodigo/ci.jquery
   * Node - https://github.com/francocorreasosa/ci_node
 * **PHP** - https://github.com/leeway-academy/ci_php
+* **Go** - https://github.com/picandocodigo/ciuy
+* **Crystal** -https://github.com/picandocodigo/ci_uy.cr
