@@ -30,3 +30,4 @@ https://picandocodigo.github.io/ci_js
 * **Go** - https://github.com/picandocodigo/ciuy
 * **Crystal** - https://github.com/picandocodigo/ci_uy.cr
 * **Prolog** - https://github.com/bcattaneo/ci_pl
+* **Java** - https://github.com/fabdelgado/ciuy
