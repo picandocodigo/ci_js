@@ -31,3 +31,6 @@ https://picandocodigo.github.io/ci_js
 * **Crystal** - https://github.com/picandocodigo/ci_uy.cr
 * **Prolog** - https://github.com/bcattaneo/ci_pl
 * **Java** - https://github.com/fabdelgado/ciuy
+- **API REST**:
+  - Generar CI: [https://ciuy-consumers-api.vercel.app/generate](https://ciuy-consumers-api.vercel.app/generate)
+  - Validar CI: [https://ciuy-consumers-api.vercel.app/validate/20050766](https://ciuy-consumers-api.vercel.app/validate/20050766)
